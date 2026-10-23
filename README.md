@@ -64,9 +64,9 @@ The following table summarizes the leading hosted microservice orchestration ser
 
 ## 💻 Leading Open-Source Orchestration Engines
 
-Curated list of production-grade open-source workflow orchestrators and durable execution frameworks, **sorted in descending order by GitHub star count**:
+Curated list of production-grade open-source workflow orchestrators and durable execution frameworks, **sorted in descending order by GitHub Stars_Count**:
 
-### 1. 🌟 **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)
+### 1. 🌟 **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Python
 * **Description:** The undisputed industry-standard batch workflow orchestrator with the largest open-source data and compute ecosystem (3,000+ contributors, 20M+ monthly downloads). Workflows are authored strictly as Python Directed Acyclic Graphs (DAGs).
 * **Key Strengths:** Expansive library of official provider packages for compute engines (Kubernetes, AWS, GCP, Azure, Databricks, Snowflake, Apache Spark). Features dynamic DAG generation, deferrable operators for async waiting without consuming worker slots, and mature enterprise scheduling.
@@ -74,7 +74,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 2. ⚡ **[Conductor](https://github.com/conductor-oss/conductor)** [![GitHub stars](https://img.shields.io/github/stars/conductor-oss/conductor?style=social&color=white)](https://github.com/conductor-oss/conductor/stargazers)
+### 2. ⚡ **[Conductor](https://github.com/conductor-oss/conductor)** [![GitHub_Stars](https://img.shields.io/github/stars/conductor-oss/conductor?style=social&color=white)](https://github.com/conductor-oss/conductor/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Java
 * **Description:** The high-throughput, event-driven microservices orchestrator created and battle-tested at Netflix to coordinate billions of microservice transactions at internet scale.
 * **Key Strengths:** Polling worker architecture allows polyglot workers (Java, Go, Python, C#, Node.js) to consume tasks without enforcing determinism inside worker business logic. Retains complete indefinite execution audit histories with instantaneous replay, step restart, and sub-workflow composition. Native integrations for AI agents, prompt chaining, MCP tool calls, and vector databases.
@@ -82,7 +82,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 3. 🎯 **[Kestra](https://github.com/kestra-io/kestra)** [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
+### 3. 🎯 **[Kestra](https://github.com/kestra-io/kestra)** [![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Java
 * **Description:** A modern, event-driven declarative orchestration platform designed for both business logic microservices and data engineering workflows.
 * **Key Strengths:** Declarative YAML-based flow definitions with an integrated visual topology designer, real-time code editor, and live execution tracing. Offers 600+ pre-built plugins across databases, cloud providers, APIs, and AI runtimes. Scales linearly via a distributed Kafka or PostgreSQL queue architecture.
@@ -90,7 +90,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 4. 🌐 **[Dapr](https://github.com/dapr/dapr)** [![GitHub stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)
+### 4. 🌐 **[Dapr](https://github.com/dapr/dapr)** [![GitHub_Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Go
 * **Description:** The CNCF Distributed Application Runtime providing portable, event-driven building blocks—including first-class **Dapr Workflow** for durable microservice orchestration.
 * **Key Strengths:** Sidecar architectural pattern abstracts state management, service discovery, pub/sub messaging, secret management, and durable execution behind standard HTTP/gRPC APIs. Dapr Workflow allows writing durable orchestrations and activities directly in Python, JavaScript, .NET, Go, and Java.
@@ -98,7 +98,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 5. 🔮 **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)
+### 5. 🔮 **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub_Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Python
 * **Description:** A modern code-first workflow coordination engine that turns ordinary Python functions into resilient, observable distributed workflows using simple `@flow` and `@task` decorators.
 * **Key Strengths:** Native dynamic execution (no static DAG compilation required), automatic parameter validation via Pydantic, seamless asynchronous execution with `asyncio`, intelligent retries, caching, and a clean web UI.
@@ -106,7 +106,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 6. ⏱️ **[Temporal](https://github.com/temporalio/temporal)** [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+### 6. ⏱️ **[Temporal](https://github.com/temporalio/temporal)** [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 * **License:** MIT | **Primary Language:** Go (Server) / Polyglot SDKs
 * **Description:** The industry's flagship code-first durable execution platform. Workflows are authored in standard application code (Go, Java, TypeScript, Python, .NET, PHP) using standard loops, conditionals, and functions.
 * **Key Strengths:** **Deterministic Event Replay:** Workflow state is recorded as an immutable append-only Event History. If a worker process crashes, a replacement worker replays the event history to rehydrate local stack frames and local variables seamlessly. Polyglot Activities handle external network I/O with zero determinism constraints.
@@ -114,7 +114,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 7. ⚙️ **[Windmill](https://github.com/windmill-labs/windmill)** [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
+### 7. ⚙️ **[Windmill](https://github.com/windmill-labs/windmill)** [![GitHub_Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
 * **License:** AGPL 3.0 / Apache 2.0 client | **Primary Language:** Rust
 * **Description:** Extremely fast, developer-centric workflow engine, script runner, and internal app builder. Built from the ground up in Rust for sub-millisecond execution overhead.
 * **Key Strengths:** Turns scripts written in Python, TypeScript, Go, Bash, SQL, and Rust into distributed workflows and microservice endpoints with auto-generated UIs. Features instant worker execution, dependency sandboxing, approval steps, and distributed worker auto-scaling.
@@ -122,7 +122,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 8. 🚢 **[Argo Workflows](https://github.com/argoproj/argo-workflows)** [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)
+### 8. 🚢 **[Argo Workflows](https://github.com/argoproj/argo-workflows)** [![GitHub_Stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Go
 * **Description:** Container-native workflow engine implemented as a Kubernetes Custom Resource Definition (CRD), orchestrating complex step-based and DAG tasks directly as Kubernetes Pods.
 * **Key Strengths:** Native integration with the Kubernetes resource model, RBAC, and storage classes. Exceptional parallel container scheduling, artifact passing (S3/GCS), and native support for compute-heavy ML pipelines and distributed CI/CD.
@@ -130,7 +130,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 9. 🎯 **[Trigger.dev](https://github.com/triggerdotdev/trigger.dev)** [![GitHub stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers)
+### 9. 🎯 **[Trigger.dev](https://github.com/triggerdotdev/trigger.dev)** [![GitHub_Stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** TypeScript
 * **Description:** Open-source TypeScript-first durable background job and workflow engine. Designed specifically to overcome serverless execution timeouts and manage long-running microservice tasks.
 * **Key Strengths:** Deep integration with full-stack frameworks (Next.js, Remix, Astro). Zero configuration needed for long sleeps, step checkpoints, resume-from-failure, and real-time execution streaming to the browser.
@@ -138,7 +138,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 10. 🗄️ **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)
+### 10. 🗄️ **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub_Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Python
 * **Description:** An asset-centric orchestration platform designed to coordinate and monitor distributed data and microservice operations by tracking state changes in the data assets they produce.
 * **Key Strengths:** Software-Defined Assets (SDAs) model enables declarative dependency tracking, built-in testability without infrastructure, integrated lineage graphing, and partition-based incremental reprocessing.
@@ -146,7 +146,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 11. 🛡️ **[Cadence](https://github.com/cadence-workflow/cadence)** [![GitHub stars](https://img.shields.io/github/stars/cadence-workflow/cadence?style=social&color=white)](https://github.com/cadence-workflow/cadence/stargazers)
+### 11. 🛡️ **[Cadence](https://github.com/cadence-workflow/cadence)** [![GitHub_Stars](https://img.shields.io/github/stars/cadence-workflow/cadence?style=social&color=white)](https://github.com/cadence-workflow/cadence/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Go / Java
 * **Description:** The pioneering distributed, scalable durable execution engine developed by Uber Technologies to orchestrate millions of concurrent business workflows across Uber's global services.
 * **Key Strengths:** Historical foundation and direct predecessor of Temporal. Battle-tested under immense real-world multi-datacenter ride-sharing throughput with multi-cluster replication, Cassandra/MySQL/PostgreSQL backends, and mature Go/Java client SDKs.
@@ -154,7 +154,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 12. ⚡ **[Hatchet](https://github.com/hatchet-dev/hatchet)** [![GitHub stars](https://img.shields.io/github/stars/hatchet-dev/hatchet?style=social&color=white)](https://github.com/hatchet-dev/hatchet/stargazers)
+### 12. ⚡ **[Hatchet](https://github.com/hatchet-dev/hatchet)** [![GitHub_Stars](https://img.shields.io/github/stars/hatchet-dev/hatchet?style=social&color=white)](https://github.com/hatchet-dev/hatchet/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Go (Engine) / TypeScript & Python SDKs
 * **Description:** A distributed, low-latency task queue and workflow engine engineered to handle high-concurrency background microservice execution, DAG orchestration, and transactional retries.
 * **Key Strengths:** Replaces conventional Redis/Celery queue bottlenecks with a robust PostgreSQL and Go event engine capable of high task dispatch throughput. Provides real-time event streaming, cancellation tokens, step timeouts, and concurrency rate limits.
@@ -162,7 +162,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 13. 🔄 **[Inngest](https://github.com/inngest/inngest)** [![GitHub stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers)
+### 13. 🔄 **[Inngest](https://github.com/inngest/inngest)** [![GitHub_Stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers)
 * **License:** Apache 2.0 | **Primary Language:** Go
 * **Description:** An event-driven workflow and durable execution runtime for building multi-step workflows, background tasks, and event-driven architectures without orchestrating external queue infrastructure.
 * **Key Strengths:** SDKs for TypeScript, Python, and Go allow step functions (`step.run`, `step.sleep`, `step.waitForEvent`) to be embedded within standard HTTP APIs. Supports cross-service event triggering, deduplication windows, and automatic step retries with zero worker daemon management.
@@ -170,7 +170,7 @@ Curated list of production-grade open-source workflow orchestrators and durable 
 
 ---
 
-### 14. 📋 **[Camunda 8 (Zeebe)](https://github.com/camunda/camunda)** [![GitHub stars](https://img.shields.io/github/stars/camunda/camunda?style=social&color=white)](https://github.com/camunda/camunda/stargazers)
+### 14. 📋 **[Camunda 8 (Zeebe)](https://github.com/camunda/camunda)** [![GitHub_Stars](https://img.shields.io/github/stars/camunda/camunda?style=social&color=white)](https://github.com/camunda/camunda/stargazers)
 * **License:** Modified Apache 2.0 (Camunda License since 8.6 for self-managed production) | **Primary Language:** Java
 * **Description:** A horizontally scalable, distributed workflow engine powered by the Zeebe append-only partitioned log with Raft consensus.
 * **Key Strengths:** Native BPMN 2.0 execution enables business analysts and developers to collaborate on visual process diagrams. Polyglot external Job Workers communicate via gRPC/REST. Built for massive horizontal scaling, backpressure control, and high fault tolerance.
@@ -223,7 +223,7 @@ Contributions from platform engineers, system architects, and open-source mainta
 3. 📝 **Add or update entries in `README.md`:**
    - Adhere to the existing markdown table or section format.
    - For SaaS tools, provide verified starting tier pricing and specific free tier limits.
-   - For open-source tools, include official repo links, star badges linking to `/stargazers`, licenses, and honest architectural trade-offs.
+   - For open-source tools, include official repo links, Stars_Badges linking to `/stargazers`, licenses, and honest architectural trade-offs.
 4. 🚀 **Commit and push your changes:**
    ```bash
    git commit -m "Add [Tool Name] to microservice orchestration list"
